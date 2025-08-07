@@ -194,7 +194,8 @@
     },
     "dkuProperties": []
   },
-  "name": "Energy consumption",
+  "name": "Energy consumption for Administrator",
+  "projectStatus": "Sandbox",
   "imgPattern": 4,
   "metrics": {
     "probes": [],
