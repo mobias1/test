@@ -1,0 +1,167 @@
+{
+  "computedColumns": [], 
+  "engineParams": {
+    "hive": {
+      "addDkuUdf": false, 
+      "executionEngine": "HIVECLI_LOCAL", 
+      "hiveconf": [], 
+      "inheritConf": "default", 
+      "skipPrerunValidate": false
+    }, 
+    "impala": {
+      "forceStreamMode": true
+    }, 
+    "lowerCaseSchemaIfEngineRequiresIt": true, 
+    "sparkSQL": {
+      "overwriteOutputSchema": false, 
+      "pipelineAllowMerge": true, 
+      "pipelineAllowStart": true, 
+      "readParams": {
+        "map": {}
+      }, 
+      "sparkConfig": {
+        "conf": [], 
+        "inheritConf": "default"
+      }, 
+      "useGlobalMetastore": false
+    }
+  }, 
+  "enlargeYourBits": true, 
+  "globalCount": false, 
+  "keys": [
+    {
+      "column": "day"
+    }, 
+    {
+      "avg": false, 
+      "column": "Site", 
+      "count": false, 
+      "countDistinct": false, 
+      "first": false, 
+      "last": false, 
+      "max": false, 
+      "min": false, 
+      "sum": false, 
+      "sum2": false, 
+      "type": "string"
+    }
+  ], 
+  "outputColumnNameOverrides": {
+    "consomation_avg": "consomation_day", 
+    "temperature_avg": "temperature_day"
+  }, 
+  "postFilter": {
+    "distinct": false, 
+    "enabled": false
+  }, 
+  "preFilter": {
+    "distinct": false, 
+    "enabled": false
+  }, 
+  "values": [
+    {
+      "avg": false, 
+      "column": "DATE_LOCAL", 
+      "count": false, 
+      "countDistinct": false, 
+      "first": false, 
+      "last": false, 
+      "max": false, 
+      "min": false, 
+      "sum": false, 
+      "sum2": false, 
+      "type": "string"
+    }, 
+    {
+      "avg": false, 
+      "column": "DATE_LOCAL_parsed", 
+      "count": false, 
+      "countDistinct": false, 
+      "first": false, 
+      "last": false, 
+      "max": false, 
+      "min": false, 
+      "sum": false, 
+      "sum2": false, 
+      "type": "date"
+    }, 
+    {
+      "avg": false, 
+      "column": "month", 
+      "count": false, 
+      "countDistinct": false, 
+      "first": false, 
+      "last": false, 
+      "max": false, 
+      "min": false, 
+      "sum": false, 
+      "sum2": false, 
+      "type": "bigint"
+    }, 
+    {
+      "avg": false, 
+      "column": "week_day", 
+      "count": false, 
+      "countDistinct": false, 
+      "first": false, 
+      "last": false, 
+      "max": false, 
+      "min": false, 
+      "sum": false, 
+      "sum2": false, 
+      "type": "bigint"
+    }, 
+    {
+      "avg": false, 
+      "column": "hour", 
+      "count": false, 
+      "countDistinct": false, 
+      "first": false, 
+      "last": false, 
+      "max": false, 
+      "min": false, 
+      "sum": false, 
+      "sum2": false, 
+      "type": "bigint"
+    }, 
+    {
+      "avg": true, 
+      "column": "consomation", 
+      "count": false, 
+      "countDistinct": false, 
+      "first": false, 
+      "last": false, 
+      "max": false, 
+      "min": false, 
+      "sum": false, 
+      "sum2": false, 
+      "type": "bigint"
+    }, 
+    {
+      "avg": true, 
+      "column": "temperature", 
+      "count": false, 
+      "countDistinct": false, 
+      "first": false, 
+      "last": false, 
+      "max": false, 
+      "min": false, 
+      "sum": false, 
+      "sum2": false, 
+      "type": "double"
+    }, 
+    {
+      "avg": false, 
+      "column": "NAF_code", 
+      "count": false, 
+      "countDistinct": false, 
+      "first": false, 
+      "last": false, 
+      "max": false, 
+      "min": false, 
+      "sum": false, 
+      "sum2": false, 
+      "type": "string"
+    }
+  ]
+}

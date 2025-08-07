@@ -1,0 +1,25 @@
+{
+    "outputProbabilities": true,
+    "keptInputColumns": [],
+    "overrideModelSpecifiedThreshold": false,
+    "filterInputColumns": false,
+    "sparkParams": {
+        "pipelineAllowStart": null,
+        "sparkPreparedDFStorageLevel": null,
+        "sparkConf": null,
+        "sparkRepartitionNonHDFS": null,
+        "pipelineAllowMerge": null
+    },
+    "forcedClassifierThreshold": 0,
+    "gpuConfig": {
+        "params": {
+            "useGpu": true,
+            "gpuList": [
+                0
+            ],
+            "perGPUMemoryFraction": 0.5,
+            "gpuAllowGrowth": false
+        },
+        "disabledCapabilities": []
+    }
+}

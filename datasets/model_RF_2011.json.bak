@@ -1,0 +1,15 @@
+{
+  "type": "DoctorPredictionTrainedModel",
+  "params": {
+    "model_folder": "saved_models/ECOMETERING_LIGHT/model_RF_2011"
+  },
+  "checks": [],
+  "managed": false,
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "dimensions": []
+  },
+  "tags": [
+    "creator_admin"
+  ]
+}

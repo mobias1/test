@@ -1,0 +1,28 @@
+{
+  "type": "saved-model_report",
+  "params": {
+    "savedModelSmartId": "4wUI1vp8"
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "Prediction ( RANDOM_FOREST_REGRESSION) on data_prepared_2011 table",
+  "dashboardCreationId": "CjL20Ee",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1486550433616
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1486550433616
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}

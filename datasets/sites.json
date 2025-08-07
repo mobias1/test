@@ -1,0 +1,60 @@
+{
+  "checks": [], 
+  "flowOptions": {
+    "rebuildBehavior": "NORMAL"
+  }, 
+  "formatParams": {
+    "parseDatesToISO": false, 
+    "parseHeaderRow": true, 
+    "preserveNumberFormatting": false, 
+    "sheets": "0", 
+    "skipColumns": 0, 
+    "skipRowsAfterHeader": 0, 
+    "skipRowsBeforeHeader": 0, 
+    "xlsx": true
+  }, 
+  "formatType": "excel", 
+  "managed": false, 
+  "metrics": {
+    "probes": []
+  }, 
+  "params": {}, 
+  "partitioning": {
+    "dimensions": [], 
+    "ignoreNonMatchingFile": false
+  }, 
+  "schema": {
+    "columns": [
+      {
+        "maxLength": 1000, 
+        "name": "ID", 
+        "type": "string"
+      }, 
+      {
+        "maxLength": 1000, 
+        "name": "NAF", 
+        "type": "string"
+      }, 
+      {
+        "maxLength": 1000, 
+        "name": "NAF code", 
+        "type": "string"
+      }, 
+      {
+        "maxLength": 1000, 
+        "name": "Data collected from", 
+        "type": "string"
+      }, 
+      {
+        "maxLength": 1000, 
+        "name": "To", 
+        "type": "string"
+      }
+    ], 
+    "userModified": false
+  }, 
+  "tags": [
+    "creator_admin"
+  ], 
+  "type": "UploadedFiles"
+}

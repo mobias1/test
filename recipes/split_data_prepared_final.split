@@ -1,0 +1,79 @@
+{
+  "column": "DATE_LOCAL_parsed", 
+  "computedColumns": [], 
+  "defaultOutputIndex": -1, 
+  "engineParams": {
+    "hive": {
+      "addDkuUdf": false, 
+      "executionEngine": "HIVECLI_LOCAL", 
+      "hiveconf": [], 
+      "inheritConf": "default", 
+      "skipPrerunValidate": false
+    }, 
+    "impala": {
+      "forceStreamMode": true
+    }, 
+    "lowerCaseSchemaIfEngineRequiresIt": false, 
+    "sparkSQL": {
+      "overwriteOutputSchema": false, 
+      "pipelineAllowMerge": true, 
+      "pipelineAllowStart": true, 
+      "readParams": {
+        "map": {}
+      }, 
+      "sparkConfig": {
+        "conf": [], 
+        "inheritConf": "default"
+      }, 
+      "useGlobalMetastore": false
+    }
+  }, 
+  "filterSplits": [
+    {
+      "filter": {
+        "uiData": {
+          "conditions": [
+            {
+              "col": "day", 
+              "date": "2012-01-01", 
+              "input": "DATE_LOCAL_parsed", 
+              "num": 0, 
+              "operator": "<  [date]", 
+              "time": "00:00"
+            }
+          ], 
+          "mode": "&&"
+        }
+      }, 
+      "outputIndex": 0
+    }, 
+    {
+      "filter": {
+        "uiData": {
+          "conditions": [
+            {
+              "col": "day", 
+              "date": "2012-01-01", 
+              "input": "DATE_LOCAL_parsed", 
+              "num": 0, 
+              "operator": ">= [date]", 
+              "time": "00:00"
+            }
+          ], 
+          "mode": "&&"
+        }
+      }, 
+      "outputIndex": 1
+    }
+  ], 
+  "mode": "FILTERS", 
+  "valueSplits": [
+    {
+      "outputIndex": 0
+    }, 
+    {
+      "outputIndex": 1
+    }
+  ], 
+  "writeComputedColumnsInOutput": false
+}

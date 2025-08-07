@@ -1,0 +1,61 @@
+{
+  "tags": {
+    "Prediction": {
+      "color": "#7f7f7f"
+    },
+    "Update model": {
+      "color": "#1f77b4"
+    },
+    "Data processing": {
+      "color": "#17becf"
+    },
+    "Predictive intelligence": {
+      "color": "#1f77b4"
+    },
+    "Business intelligence": {
+      "color": "#d62728"
+    },
+    "Machine Learning": {
+      "color": "#d62728"
+    },
+    "sample": {
+      "color": "#123883"
+    },
+    "sample_project": {
+      "color": "#d66b9b"
+    },
+    "within_dss:Use cases": {
+      "color": "#d66b9b"
+    },
+    "Source data": {
+      "color": "#ff7f0e"
+    },
+    "Best model": {
+      "color": "#17becf"
+    },
+    "downloads": {
+      "color": "#de1ea5"
+    },
+    "Processed data": {
+      "color": "#2ca02c"
+    },
+    "imported": {
+      "color": "#263238"
+    },
+    "SAMPLE_PROJECT": {
+      "color": "#1ac2ab"
+    },
+    "creator_marc": {
+      "color": "#bcbd22"
+    },
+    "creator:admin": {
+      "color": "#28aadd"
+    },
+    "gallery": {
+      "color": "#FFD83D"
+    },
+    "creator_admin": {
+      "color": "#e377c2"
+    }
+  }
+}

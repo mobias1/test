@@ -1,0 +1,593 @@
+{
+  "checklists": {
+    "checklists": []
+  },
+  "creationTag": {
+    "extendedProperties": {},
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1485789901665,
+    "versionNumber": 3
+  },
+  "customFields": {},
+  "listed": true,
+  "name": "Sites consumption",
+  "owner": "admin",
+  "pages": [
+    {
+      "enableCrossFilters": true,
+      "filtersParams": {
+        "panelPosition": "TOP"
+      },
+      "grid": {
+        "tiles": [
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 4,
+              "left": 0,
+              "top": 0,
+              "width": 3
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "NO",
+            "tileParams": {
+              "isTransparent": false,
+              "text": "**We can see here that the consumption for sites #18 and #31 are much smaller than for site #1.**\nNote that the vertical axis is in logarithmic scale!\n\n<br>\n**In the graphs on other slides variations have to be compared with absolute values, pay attention to the vertical axis.**",
+              "textAlign": "LEFT"
+            },
+            "tileType": "TEXT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "NO"
+            }
+          },
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 4,
+              "left": 3,
+              "top": 0,
+              "width": 9
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "displayMode": "INSIGHT",
+            "insightId": "8osCQv1",
+            "insightType": "chart",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": false,
+              "showTooltips": false,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES"
+            }
+          }
+        ]
+      },
+      "id": "CXoARU4",
+      "showTitle": true,
+      "title": "Overview : all sites"
+    },
+    {
+      "enableCrossFilters": true,
+      "filtersParams": {
+        "panelPosition": "TOP"
+      },
+      "grid": {
+        "tiles": [
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 2,
+              "left": 0,
+              "top": 0,
+              "width": 5
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "displayMode": "INSIGHT",
+            "insightId": "NcFouRL",
+            "insightType": "chart",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "title": "Per weekday",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Per weekday"
+            }
+          },
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 3,
+              "left": 0,
+              "top": 2,
+              "width": 5
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "displayMode": "INSIGHT",
+            "insightId": "Ifhx8kG",
+            "insightType": "chart",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "title": "Per hour",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Per hour"
+            }
+          },
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 5,
+              "left": 5,
+              "top": 0,
+              "width": 7
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "displayMode": "INSIGHT",
+            "insightId": "v38lcjs",
+            "insightType": "chart",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "title": "Consumption as a function of Temperature",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Consumption as a function of Temperature"
+            }
+          }
+        ]
+      },
+      "id": "TQ5Ef4V",
+      "showTitle": true,
+      "title": "Consumption for site 01"
+    },
+    {
+      "enableCrossFilters": true,
+      "filtersParams": {
+        "panelPosition": "TOP"
+      },
+      "grid": {
+        "tiles": [
+          {
+            "autoLoad": true,
+            "backgroundOpacity": 0,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 1,
+              "left": 0,
+              "top": 12,
+              "width": 12
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "NO",
+            "tileParams": {
+              "isTransparent": true,
+              "text": "# Consumption for site #31\n<hr>",
+              "textAlign": "CENTER"
+            },
+            "tileType": "TEXT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "NO"
+            }
+          },
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 3,
+              "left": 0,
+              "top": 13,
+              "width": 5
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "displayMode": "INSIGHT",
+            "insightId": "UEfYcHg",
+            "insightType": "chart",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "title": "Per weekday",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Per weekday"
+            }
+          },
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 3,
+              "left": 0,
+              "top": 16,
+              "width": 5
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "displayMode": "INSIGHT",
+            "insightId": "9BNuRwA",
+            "insightType": "chart",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "title": "Per hour",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Per hour"
+            }
+          },
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 4,
+              "left": 5,
+              "top": 13,
+              "width": 7
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "displayMode": "INSIGHT",
+            "insightId": "2JN3O3g",
+            "insightType": "chart",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "title": "Consumption  as a function of Temperature",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Consumption  as a function of Temperature"
+            }
+          },
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 2,
+              "left": 0,
+              "top": 0,
+              "width": 5
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "displayMode": "INSIGHT",
+            "insightId": "cmP1lES",
+            "insightType": "chart",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "title": "Per weekday",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Per weekday"
+            }
+          },
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 3,
+              "left": 0,
+              "top": 2,
+              "width": 5
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "displayMode": "INSIGHT",
+            "insightId": "8M4Iavd",
+            "insightType": "chart",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "title": "Per hour",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Per hour"
+            }
+          },
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 5,
+              "left": 5,
+              "top": 0,
+              "width": 7
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "displayMode": "INSIGHT",
+            "insightId": "n7mUy0e",
+            "insightType": "chart",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "title": "Consumption as a function of Temperature",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Consumption as a function of Temperature"
+            }
+          }
+        ]
+      },
+      "id": "azLagxs",
+      "showTitle": true,
+      "title": "Consumption for site 18"
+    },
+    {
+      "enableCrossFilters": true,
+      "filtersParams": {
+        "panelPosition": "TOP"
+      },
+      "grid": {
+        "tiles": [
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 2,
+              "left": 0,
+              "top": 0,
+              "width": 5
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "displayMode": "INSIGHT",
+            "insightId": "ZC1JYQK",
+            "insightType": "chart",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "title": "Per weekday",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Per weekday"
+            }
+          },
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 3,
+              "left": 0,
+              "top": 2,
+              "width": 5
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "displayMode": "INSIGHT",
+            "insightId": "8Z63iBE",
+            "insightType": "chart",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "title": "Per hour",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Per hour"
+            }
+          },
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 5,
+              "left": 5,
+              "top": 0,
+              "width": 7
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "displayMode": "INSIGHT",
+            "insightId": "mhXqpJZ",
+            "insightType": "chart",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "title": "Consumption  as a function of Temperature",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Consumption  as a function of Temperature"
+            }
+          }
+        ]
+      },
+      "id": "ozWvA2v",
+      "showTitle": true,
+      "title": "Consumption for site 31"
+    }
+  ],
+  "showGrid": true,
+  "tags": [],
+  "versionTag": {
+    "extendedProperties": {},
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1688994403049,
+    "versionNumber": 86
+  }
+}

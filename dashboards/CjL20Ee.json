@@ -1,0 +1,531 @@
+{
+  "checklists": {
+    "checklists": []
+  },
+  "creationTag": {
+    "extendedProperties": {},
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1486394066184,
+    "versionNumber": 0
+  },
+  "customFields": {},
+  "listed": true,
+  "name": "Model results",
+  "owner": "admin",
+  "pages": [
+    {
+      "enableCrossFilters": true,
+      "filtersParams": {
+        "panelPosition": "TOP"
+      },
+      "grid": {
+        "tiles": [
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 4,
+              "left": 0,
+              "top": 6,
+              "width": 8
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "GnUOa3E",
+            "insightType": "saved-model_report",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "advancedOptions": {
+                "featureImportance": {
+                  "graphType": "absoluteFeatureImportance",
+                  "importanceDisplayMode": "globalExplanations"
+                },
+                "interactiveScoring": {
+                  "featuresOrder": [
+                    "DATE_LOCAL_parsed",
+                    "month",
+                    "week_day",
+                    "hour",
+                    "temperature",
+                    "Site",
+                    "NAF_code",
+                    "consomation_day",
+                    "temperature_day",
+                    "consomation_previous_day",
+                    "consomation_day_of_previous_week",
+                    "temperature_week_avg",
+                    "temperature_previous_day"
+                  ]
+                }
+              },
+              "displayMode": "r_scatter"
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES"
+            }
+          },
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 3,
+              "left": 0,
+              "top": 2,
+              "width": 4
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "displayMode": "INSIGHT",
+            "insightId": "Xc5GRnM",
+            "insightType": "dataset_table",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "showCustomFields": false,
+              "showDescription": true,
+              "showMeaning": false,
+              "showName": true,
+              "showProgressBar": false,
+              "showStorageType": false,
+              "viewKind": "EXPLORE"
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES"
+            }
+          },
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 5,
+              "left": 4,
+              "top": 0,
+              "width": 8
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "displayMode": "INSIGHT",
+            "insightId": "wr5PI2I",
+            "insightType": "chart",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "title": "Predicted vs observed consumption for the year 2012",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Predicted vs observed consumption for the year 2012"
+            }
+          },
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 2,
+              "left": 0,
+              "top": 0,
+              "width": 4
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "NO",
+            "tileParams": {
+              "isTransparent": false,
+              "text": "The model does better for site ID01 than for others, this is confirmed by the MAPE scores per site visible below.\n\nWe can see that to improve the model we would have to first concentrate on what happens at site ID18, as it scores the worst currently.\n\n#####If you look at model validation for site 18 and 31, you will see that our model currently has a critical problem... Will you spot it? What could we do?",
+              "textAlign": "RIGHT"
+            },
+            "tileType": "TEXT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "NO"
+            }
+          },
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 1,
+              "left": 0,
+              "top": 5,
+              "width": 12
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "NO",
+            "tileParams": {
+              "isTransparent": false,
+              "text": "# Model training information\n<hr>",
+              "textAlign": "CENTER"
+            },
+            "tileType": "TEXT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "NO"
+            }
+          },
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 6,
+              "left": 0,
+              "top": 10,
+              "width": 8
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "KHmKQmP",
+            "insightType": "saved-model_report",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "advancedOptions": {},
+              "displayMode": "coefficients"
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES"
+            }
+          },
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 8,
+              "left": 8,
+              "top": 6,
+              "width": 4
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "RQWKnQP",
+            "insightType": "saved-model_report",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "advancedOptions": {},
+              "displayMode": "algorithm"
+            },
+            "tileType": "INSIGHT",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES"
+            }
+          }
+        ]
+      },
+      "id": "Tis0jKK",
+      "showTitle": false,
+      "title": "Ridge results and information"
+    },
+    {
+      "enableCrossFilters": true,
+      "filtersParams": {
+        "panelPosition": "TOP"
+      },
+      "grid": {
+        "tiles": [
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 4,
+              "left": 5,
+              "top": 0,
+              "width": 7
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "RFrFG00",
+            "insightType": "chart",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": true,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "title": "Difference between predicted and actual consumption as a function of temperature",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Difference between predicted and actual consumption as a function of temperature"
+            }
+          },
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 4,
+              "left": 0,
+              "top": 0,
+              "width": 5
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "USu1STI",
+            "insightType": "chart",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "title": "Difference between predicted and actual consumption as a function of time",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Difference between predicted and actual consumption as a function of time"
+            }
+          }
+        ]
+      },
+      "id": "bBrYrC9",
+      "showTitle": true,
+      "title": "Model validation for site 01"
+    },
+    {
+      "enableCrossFilters": true,
+      "filtersParams": {
+        "panelPosition": "TOP"
+      },
+      "grid": {
+        "tiles": [
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 4,
+              "left": 5,
+              "top": 0,
+              "width": 7
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "HPuvxjo",
+            "insightType": "chart",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": true,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "title": "Difference between predicted and actual consumption as a function of temperature",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Difference between predicted and actual consumption as a function of temperature"
+            }
+          },
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 4,
+              "left": 0,
+              "top": 0,
+              "width": 5
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "i2yQqgN",
+            "insightType": "chart",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "title": "Difference between predicted and actual consumption as a function of time",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Difference between predicted and actual consumption as a function of time"
+            }
+          }
+        ]
+      },
+      "id": "M9Ak69k",
+      "showTitle": true,
+      "title": "Model validation for site 18"
+    },
+    {
+      "enableCrossFilters": true,
+      "filtersParams": {
+        "panelPosition": "TOP"
+      },
+      "grid": {
+        "tiles": [
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 4,
+              "left": 5,
+              "top": 0,
+              "width": 7
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "sWHebJT",
+            "insightType": "chart",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": true,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "title": "Difference between predicted and actual consumption as a function of temperature",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Difference between predicted and actual consumption as a function of temperature"
+            }
+          },
+          {
+            "autoLoad": true,
+            "borderOptions": {
+              "color": "#D9D9D9",
+              "radius": 0,
+              "size": 1
+            },
+            "box": {
+              "height": 4,
+              "left": 0,
+              "top": 0,
+              "width": 5
+            },
+            "clickAction": "DO_NOTHING",
+            "displayMode": "INSIGHT",
+            "insightId": "nQx1E0Y",
+            "insightType": "chart",
+            "resizeImageMode": "ORIG_SIZE",
+            "showTitle": "YES",
+            "tileParams": {
+              "autoPlayAnimation": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "showXAxis": true,
+              "showYAxis": true
+            },
+            "tileType": "INSIGHT",
+            "title": "Difference between predicted and actual consumption as a function of time",
+            "titleOptions": {
+              "fontColor": "#000",
+              "fontSize": 13,
+              "showTitle": "YES",
+              "title": "Difference between predicted and actual consumption as a function of time"
+            }
+          }
+        ]
+      },
+      "id": "U3CNLE7",
+      "showTitle": true,
+      "title": "Model validation for site 31"
+    }
+  ],
+  "showGrid": true,
+  "tags": [],
+  "versionTag": {
+    "extendedProperties": {},
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1688994468401,
+    "versionNumber": 86
+  }
+}
